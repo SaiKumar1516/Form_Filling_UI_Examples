@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+       <label for="firstname">Firstname</label>
+       <input type="text" id="firstname" autofocus><br>
+       <label for="pwd">password</label>
+       <input type="password" id="pwd" placeholder="enter your password"><br>
+       <label for="gen">gender</label>
+       <input type="radio" id="gen" name="gen">M
+       <input type="radio" id="gen" name="gen">F <br>
+       <label for="cont">contact</label>
+       <input type="number" value="0123456789" readonly><br>
+       <label for="mail">email</label>
+       <input type="email" required><br>
+       <label for="hobbs">Hobbies</label>
+       <input type="checkbox">reading books
+       <input type="checkbox" checked>games
+       <input type="checkbox">music
+       <input type="checkbox">movies
+       <br>
+       <label for="state">select your state:</label>
+       <select name="states" id="states">
+        <option value="">AP</option>
+        <option value="" selected>TS</option>
+        <option value="">GOA</option>
+        <option value="">ASSAM</option>
+       </select><br>
+       
+       <!-- DATALIST -->
+       <input list="skills">
+       <datalist id="skills">
+        <option value="Javascript">JS</option>
+        <option value="ReactJS">RJS</option>
+        <option value="Cascading style sheet">CSS</option>
+        <option value="Hyper Text Markup Lang">HTML</option>
+       </datalist>
+       <br>
+       <button>submit</button>
+    </form>
+</body>
+</html>
